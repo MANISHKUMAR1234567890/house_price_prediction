@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 import pandas as pd
 
-model=joblib.load("D:\ML projects\house_price_prediction\house.pkl")
+model=joblib.load("house.pkl")
 
 st.title("House Price Predictor ")
 
